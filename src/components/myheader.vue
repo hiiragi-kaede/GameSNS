@@ -35,6 +35,7 @@
         <ul class="menu">
             <li><a href="#">HOME</a></li>
             <li><a href="#">USER</a></li>
+            <li><a href="#">FRIEND</a></li>
             <li><a href="#">SEARCH</a></li>
             <li><a href="#">LOGOUT</a></li>
         </ul>
