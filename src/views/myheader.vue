@@ -33,11 +33,10 @@
 <template>
     <div class="myheader">
         <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">USER</a></li>
-            <li><a href="#">FRIEND</a></li>
-            <li><a href="#">SEARCH</a></li>
-            <li><a href="#">LOGOUT</a></li>
+            <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/about">Friend</router-link></li>
+            <li><router-link to="/">Search</router-link></li>
+            <li><router-link to="/">Logout</router-link></li>
         </ul>
     </div>
 </template>
