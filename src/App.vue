@@ -1,14 +1,16 @@
 <template>
   <div>
     <myheader></myheader>
-    <p v-if="msg.length > 0">
+    <body>
+      <p v-if="msg.length > 0">
       {{msg}}
-    </p>
-    <p v-else>
-      no text
-    </p>
-    <input type="text" v-model="msg">
-    <button @click="clear()">clear</button>
+      </p>
+      <p v-else>
+        no text
+      </p>
+      <input type="text" v-model="msg">
+      <button @click="clear()">clear</button>  
+    </body>
   </div>
 </template>
 
