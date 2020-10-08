@@ -11,15 +11,18 @@
       <input type="text" v-model="msg">
       <button @click="clear()">clear</button>  
     </body>
+    <APITest></APITest>
   </div>
 </template>
 
 <script>
 import myheader from './components/myheader'
+import APITest from './components/APITest'
 
-export default {
+export default{
   components:{
-    myheader
+    myheader,
+    APITest
   },
   data(){
     return{
