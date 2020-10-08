@@ -32,12 +32,33 @@
 
 <template>
     <div class="myheader">
-        <ul class="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">USER</a></li>
-            <li><a href="#">SEARCH</a></li>
-            <li><a href="#">LOGOUT</a></li>
-        </ul>
+        <p class="headertext" id="headertext">
+        </p>
+        <button v-if="b_state" @click="show" height="10">show</button>
+        <button v-else @click="hide" height="10">hide</button>
     </div>
 </template>
+
+<script>
+export default {
+  data(){
+    return{
+        b_state:true
+    }
+  },
+  methods:{
+    show(){
+        var h="aiueo<br>完成形";
+        document.getElementById('headertext').innerHTML=h;
+        this.b_state=false;
+    },
+    hide(){
+        var h="";
+        document.getElementById('headertext').innerHTML=h;
+        this.b_state=true;
+    }
+  }  
+}
+</script>
+
 
