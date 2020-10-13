@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="about">
+    <div class="friend">
       <h1>
-        This is an about page
+        This is a Friend Page
         </h1>
     </div>
   </div>

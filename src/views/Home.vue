@@ -1,7 +1,9 @@
 <template>
   <div>
-    <myheader></myheader>
     <body>
+      <h1>
+        This is a Home Page
+      </h1>
       <p v-if="msg.length > 0">
       {{msg}}
       </p>
@@ -9,20 +11,15 @@
         no text
       </p>
       <input type="text" v-model="msg">
-      <button @click="clear()">clear</button>  
+      <button @click="clear()">clear</button>
     </body>
-    <APITest></APITest>
   </div>
 </template>
 
 <script>
-import myheader from './myheader'
-import APITest from './APITest'
 
 export default{
   components:{
-    myheader,
-    APITest
   },
   data(){
     return{

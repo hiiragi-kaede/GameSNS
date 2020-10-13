@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="about">
+    <div class="logout">
       <h1>
-        This is an about page
+        This is a Logout Page
         </h1>
     </div>
   </div>

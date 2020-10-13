@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="about">
+    <div class="search">
       <h1>
-        This is an about page
+        This is a Search Page
         </h1>
     </div>
   </div>
