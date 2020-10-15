@@ -33,6 +33,11 @@ const routes = [
     name: 'Search',
     component: () => import('../views/Search.vue')
   },
+  {
+    path: '/APITest',
+    name: 'APITest',
+    component: () => import('../views/APITest.vue')
+  },
 ]
 
 const router = new VueRouter({

@@ -6,6 +6,7 @@
             <li><router-link to="/friend">Friend</router-link></li>
             <li><router-link to="/search">Search</router-link></li>
             <li><router-link to="/logout">Logout</router-link></li>
+            <li><router-link to="/APITest">APITest</router-link></li>
         </ul>
     </div>
     <router-view/>
@@ -36,6 +37,7 @@
   color: #42b983;
 }
 
+
 .headertext{
     color:white;
       text-shadow:  2px  2px 5px #777 ,
@@ -47,15 +49,14 @@
 ul.menu{
     display: table;
     table-layout: fixed;
-    width: 600px;
-    padding-bottom: 10px;
+    width: 700px;
 }
 ul.menu li{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     background-color: powderblue;
-    border-left: 2px solid white;
+    border-left: 5px solid white;
 }
 ul.menu li a{
     display: block;
